@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_perfil_usuario"
+        android:orderInCategory="100"
+        android:title="Perfil"
+        app:showAsAction="collapseActionView"/>
+
+    <item
+        android:id="@+id/action_lista_usuario"
+        android:orderInCategory="100"
+        android:title="Usuários"
+        />
+
+    <item
+        android:id="@+id/action_sair_admin"
+        android:orderInCategory="1000"
+        android:title="Sair"
+        />
+
+</menu>
